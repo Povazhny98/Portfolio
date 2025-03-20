@@ -18,14 +18,14 @@ export const Main = () => {
     );
 };
 
-const StyledMain = styled.div`
+const StyledMain = styled.section`
     min-height: 100vh;
     background-color: #e2bbbb;
 `
 
 const Photo = styled.img`
     width: 350px;
-    higth: 430px;
+    height: 430px;
     object-fit: cover;
 `
 
